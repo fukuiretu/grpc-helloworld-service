@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'grpc'
 require_relative '../services/hello_world_service'
+require_relative '../config/initializers/activerecord'
 
 class GprcHellowworldServer
   class << self
@@ -9,6 +10,10 @@ class GprcHellowworldServer
     end
 
     private
+
+    def load_initializers
+
+    end
 
     def start_grpc_server
       puts "grpc server start..."

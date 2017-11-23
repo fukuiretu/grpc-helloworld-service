@@ -4,3 +4,4 @@ development:
   database: grpc_helloworld_development
   username: root
   password:
+  pool: 5

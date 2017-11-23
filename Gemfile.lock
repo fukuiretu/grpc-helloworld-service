@@ -72,6 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   grpc-helloworld!
   mysql2
   ridgepole
